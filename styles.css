@@ -1,0 +1,59 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f16c82;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #68e7f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

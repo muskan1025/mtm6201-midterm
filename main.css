@@ -1,0 +1,210 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif, Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+
+.text {
+    color: #fff;
+}
+
+header {
+    background-color: #79d4eb;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    background-image: url('SHADESSSS.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 200px;
+    text-align: center;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+.banner p {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container h1 {
+    display: grid;
+    justify-content:left;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+.item p {
+    margin-top: 10px;
+}
+.item h3 {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #ffffff; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #ffffff; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.about {
+    padding: 50px 0;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.about-content p {
+    max-width: 80%;
+    font-size:larger;
+}
+
+
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service img {
+    width: 50%;
+    max-height: 400px;
+    object-fit: square;
+    border-radius: 5px;
+}
+
+.service h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ee9c9c;
+}
